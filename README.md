@@ -17,7 +17,8 @@
  Na pasta models encontramos o arquivo atendimentos.js que está direcionando nossos métodos  e criando as Querys que serão utilizadas durante o agendamento, é aqui que se encontra o que cada método REST está relacionado.
  
  Por fim, na raiz do nosso sistema, o arquivo index.js fica responsável de subir e rodar nosso servidor!
- 
- # Continuação do projeto na brach Streaming-Dados
- 
+  
  Qualquer dúvida estou a disposição, até mais!
+ 
+  *Continuação do projeto na brach Streaming-Dados
+
