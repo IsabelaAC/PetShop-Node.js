@@ -17,15 +17,15 @@
  
 ## :mag: Infraestrutura
  
--Na pasta "config" está as configurações do  NodeExpress.
+- Na pasta "config" está as configurações do  NodeExpress.
  
--Nos arquivo "atendimentos.js" da pasta "Controllers" está as configurações das nossas rotas e ações a serem tomadas seguindo os padrões REST.
+-  Nos arquivo "atendimentos.js" da pasta "Controllers" está as configurações das nossas rotas e ações a serem tomadas seguindo os padrões REST.
  
--Já na sessão de infraestrutura contamos com dois arquivos: "Conexão.js" que faz a conexão com nosso banco de dados (onde você deve alterar para conectar com o seu próprio banco) e o arquivo "Tabelas.js" responsável pela criação das tabelas do nosso sistema.
+- Já na sessão de infraestrutura contamos com dois arquivos: "Conexão.js" que faz a conexão com nosso banco de dados (onde você deve alterar para conectar com o seu próprio banco) e o arquivo "Tabelas.js" responsável pela criação das tabelas do nosso sistema.
  
 - Na pasta models encontramos o arquivo "atendimentos.js" que está direcionando nossos métodos  e criando as Querys que serão utilizadas durante o agendamento, é aqui que se encontra o que cada método REST está relacionado.
  
- -Por fim, na raiz do nosso sistema, o arquivo "index.js" fica responsável de subir e rodar nosso servidor.
+ - Por fim, na raiz do nosso sistema, o arquivo "index.js" fica responsável de subir e rodar nosso servidor.
  
  
  ## Observações
