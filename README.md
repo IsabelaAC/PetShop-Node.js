@@ -32,6 +32,8 @@ A otimização do código anterior contou com a utilização de:
  -`My Sql`
  -`JavaScript`
  
+ 🚧 Projeto finalizado ✅
+ 
  
  ## :woman: Desenvolvedora
  
