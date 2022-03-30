@@ -1,24 +1,44 @@
-# RestMysqlNode
+ <h1 align="center"> API para o atendimento em um Pet Shop </h1>
+
+ O projeto consiste em uma API rest utilizando o framework Node.js e banco de dados My Sql que gerencia atendimentos realizados em uma rede de Pet Shop fictícea permitindo todas as operações restfull
  
- API REST desenvolvida em Node.js em um banco de dados My Sql para criar, editar, deletar e vizualizar atendimentos de uma rede de Pet Shop.
+ > :construction: Projeto finalizado :white_check_mark:
+
+
+## 📁 Acesso ao projeto
+
+ Para utilizar basta clonar o repositório.
+
+## 🛠️ Abrir e rodar o projeto
+
+ Já na pasta clonada, deve-se  instalar o Node.js e rodar comando npm init. 
+ É necessário realizar a alteração da conexão do banco de dados para um banco de dados localizado na sua máquina utilizando as suas credenciais, já que o banco de dados utilizado na construção é um banco local. 
  
- Sobre o projeto:
+## :mag: Infraestrutura
  
- Para utilizar baixa clonar o repositório e inicar com npm init. 
+-Na pasta "config" está as configurações do  NodeExpress.
  
- É necessário realizar a alteração da conexão do banco de dados para um banco de dados localizado na sua máquina utilizando as suas credenciais.
+ -Nos arquivo "atendimentos.js" da pasta "Controllers" está as configurações das nossas rotas e ações a serem tomadas seguindo os padrões REST.
  
- Na pasta config está as configurações do Express.
+ -Já na sessão de infraestrutura contamos com dois arquivos: "Conexão.js" que faz a conexão com nosso banco de dados (onde você deve alterar para conectar com o seu próprio banco) e o arquivo "Tabelas.js" responsável pela criação das tabelas do nosso sistema.
  
- Nos arquivo atendimentos.js da pasta Controllers está as configurações das nossas rotas e ações a serem tomadas seguindo os padrões REST.
+- Na pasta models encontramos o arquivo "atendimentos.js" que está direcionando nossos métodos  e criando as Querys que serão utilizadas durante o agendamento, é aqui que se encontra o que cada método REST está relacionado.
  
- Já na sessão de infraestrutura contamos com dois arquivos: Conexão.js que faz a conexão com nosso banco de dados (onde você deve alterar para conectar com o seu próprio banco) e o arquivo Tabelas.js responsável pela criação das tabelas do nosso sistema.
+ -Por fim, na raiz do nosso sistema, o arquivo "index.js" fica responsável de subir e rodar nosso servidor!
  
- Na pasta models encontramos o arquivo atendimentos.js que está direcionando nossos métodos  e criando as Querys que serão utilizadas durante o agendamento, é aqui que se encontra o que cada método REST está relacionado.
+ ## :computer: Tecnologias utilizadas
+ -`Node.js`
+ -`My Sql`
+ -`JavaScript
  
- Por fim, na raiz do nosso sistema, o arquivo index.js fica responsável de subir e rodar nosso servidor!
+ 
+   *Existe um projeto em construçaõ que interliga com este na branch Streaming-Dados
+
+ ## Desenvolvedora
+ 
+ [<img src="https://avatars.githubusercontent.com/u/66324902?s=400&u=6d21db611880cf437c25d3e4c5445ad80a642a8f&v=4" width=115><br><sub>Isabela Assis Cardoso</sub>](https://github.com/IsabelaAC)
+
   
  Qualquer dúvida estou a disposição, até mais!
  
-  *Continuação do projeto na brach Streaming-Dados
 
